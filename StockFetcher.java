@@ -26,7 +26,7 @@ import java.util.Set;
 
 
 
-public class StockinfoYahoo {
+public class StockFetcher {
 	
 			
 	private final String YahooURL = "http://finance.yahoo.com/d/quotes.csv?s=";
@@ -84,7 +84,7 @@ public class StockinfoYahoo {
 	
 	
 	
-	public StockinfoYahoo()
+	public StockFetcher()
 	{
 		System.out.println("Enter your Stock Symbol:");
 		String stock=input.nextLine();
